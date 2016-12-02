@@ -1,0 +1,98 @@
+#' RGB Value Map of the CET Perceptually Uniform Colour Maps
+#'
+#' A \code{list} of \code{data.frame}s that have the RGB values of the CET
+#' Perceptually Uniform Colour Maps as released in June 2016.
+#'
+#' @format A \code{list} with each entry coded as a data frame with 256
+#'         observations and 3 variables:
+#' \itemize{
+#'   \item R: Red value
+#'   \item G: Green value
+#'   \item B: Blue value
+#' }
+#'
+#' The following color maps have been included:
+#'
+#' \itemize{
+#'   \item \code{_bgyr_35-85_c73_n256}
+#'   \item \code{cyclic_grey_15-85_c0_n256}
+#'   \item \code{cyclic_grey_15-85_c0_n256_s25}
+#'   \item \code{cyclic_mrybm_35-75_c68_n256}
+#'   \item \code{cyclic_mrybm_35-75_c68_n256_s25}
+#'   \item \code{cyclic_mygbm_30-95_c78_n256}
+#'   \item \code{cyclic_mygbm_30-95_c78_n256_s25}, \code{colorwheel}
+#'   \item \code{cyclic_wrwbw_40-90_c42_n256}
+#'   \item \code{cyclic_wrwbw_40-90_c42_n256_s25}
+#'   \item \code{diverging-isoluminant_cjm_75_c23_n256}
+#'   \item \code{diverging-isoluminant_cjm_75_c24_n256}
+#'   \item \code{diverging-isoluminant_cjo_70_c25_n256}
+#'   \item \code{diverging-linear_bjr_30-55_c53_n256}
+#'   \item \code{diverging-linear_bjy_30-90_c45_n256}, \code{bjy}
+#'   \item \code{diverging-rainbow_bgymr_45-85_c67_n256}
+#'   \item \code{diverging_bkr_55-10_c35_n256}, \code{bkr}
+#'   \item \code{diverging_bky_60-10_c30_n256}, \code{bky}
+#'   \item \code{diverging_bwr_40-95_c42_n256}, \code{coolwarm}
+#'   \item \code{diverging_bwr_55-98_c37_n256}
+#'   \item \code{diverging_cwm_80-100_c22_n256}
+#'   \item \code{diverging_gkr_60-10_c40_n256}
+#'   \item \code{diverging_gwr_55-95_c38_n256}
+#'   \item \code{diverging_gwv_55-95_c39_n256}, \code{gwv}
+#'   \item \code{isoluminant_cgo_70_c39_n256}
+#'   \item \code{isoluminant_cgo_80_c38_n256}, \code{isolum}
+#'   \item \code{isoluminant_cm_70_c39_n256}
+#'   \item \code{linear_bgy_10-95_c74_n256}, \code{bgy}
+#'   \item \code{linear_bgyw_15-100_c67_n256}
+#'   \item \code{linear_bgyw_15-100_c68_n256}, \code{bgyw}
+#'   \item \code{linear_blue_5-95_c73_n256}
+#'   \item \code{linear_blue_95-50_c20_n256}, \code{blues}
+#'   \item \code{linear_bmw_5-95_c86_n256}
+#'   \item \code{linear_bmw_5-95_c89_n256}, \code{bmw}
+#'   \item \code{linear_bmy_10-95_c71_n256}
+#'   \item \code{linear_bmy_10-95_c78_n256}, \code{inferno}
+#'   \item \code{linear_gow_60-85_c27_n256}
+#'   \item \code{linear_gow_65-90_c35_n256}
+#'   \item \code{linear_green_5-95_c69_n256}, \code{kgy}
+#'   \item \code{linear_grey_0-100_c0_n256}, \code{gray}
+#'   \item \code{linear_grey_10-95_c0_n256}, \code{dimgray}
+#'   \item \code{linear_kry_5-95_c72_n256}
+#'   \item \code{linear_kry_5-98_c75_n256}
+#'   \item \code{linear_kryw_5-100_c64_n256}
+#'   \item \code{linear_kryw_5-100_c67_n256}, \code{fire}
+#'   \item \code{linear_ternary-blue_0-44_c57_n256}, \code{kb}
+#'   \item \code{linear_ternary-green_0-46_c42_n256}, \code{kg}
+#'   \item \code{linear_ternary-red_0-50_c52_n256}, \code{kr}
+#'   \item \code{rainbow_bgyr_35-85_c72_n256}
+#'   \item \code{rainbow_bgyr_35-85_c73_n256}, \code{rainbow}
+#'   \item \code{rainbow_bgyrm_35-85_c69_n256}
+#'   \item \code{rainbow_bgyrm_35-85_c71_n256}
+#' }
+#' @references
+#' \url{http://peterkovesi.com/projects/colourmaps/}
+#' @source
+#' \url{http://peterkovesi.com/projects/colourmaps/CETperceptual_csv_0_1.zip}
+"cet_color_maps"
+
+# Alt name array
+alt_color_pairs = c(
+  bgy        = "linear_bgy_10-95_c74_n256",
+  bgyw       = "linear_bgyw_15-100_c68_n256",
+  kbc        = "linear_blue_5-95_c73_n256",
+  blues      = "linear_blue_95-50_c20_n256",
+  bmw        = "linear_bmw_5-95_c89_n256",
+  inferno    = "linear_bmy_10-95_c78_n256",
+  kgy        = "linear_green_5-95_c69_n256",
+  gray       = "linear_grey_0-100_c0_n256",
+  dimgray    = "linear_grey_10-95_c0_n256",
+  fire       = "linear_kryw_5-100_c67_n256",
+  kb         = "linear_ternary_blue_0-44_c57_n256",
+  kg         = "linear_ternary_green_0-46_c42_n256",
+  kr         = "linear_ternary_red_0-50_c52_n256",
+  bkr        = "diverging_bkr_55-10_c35_n256",
+  bky        = "diverging_bky_60-10_c30_n256",
+  coolwarm   = "diverging_bwr_40-95_c42_n256",
+  gwv        = "diverging_gwv_55-95_c39_n256",
+  bjy        = "diverging-linear_bjy_30-90_c45_n256",
+  colorwheel = "cyclic_mygbm_30-95_c78_s25_n256",
+  isolum     = "isoluminant_cgo_80_c38_n256",
+  rainbow    = "rainbow_bgyr_35-85_c73_n256"
+)

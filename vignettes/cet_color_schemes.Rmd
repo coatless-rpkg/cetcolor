@@ -1,0 +1,95 @@
+---
+title: "CET Perceptually Uniform Colour Maps"
+author: "James Balamuta with material heavily taken from Peter Kovesi"
+date: "`r Sys.Date()`"
+bibliography: cet.bib
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{CET Perceptually Uniform Colour Maps}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
+to bring to R the color maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
+in @ARXIV:Kovesi:CETCOLORMAPS that avoid points of locally high color contrast 
+leading to the perception of false anomalies in your data when there is none.
+The color maps have been designed to avoid this phenomenon by having uniform 
+perceptual contrast over their whole range.
+
+## Supported Color Maps
+
+There are 51 supported color maps organised according to the attributes: 
+
+- Linear
+- Diverging
+- Rainbow
+- Cyclic
+- Isoluminant
+
+## Organisation of Color Maps
+
+Each color map is named as follows:
+
+```
+                    linear_kryw_5-100_c67_n256
+                      /      /    |    \    \
+  Color map attribute(s)    /     |     \    Number of color map entries
+                           /      |      \
+     String indicating nominal    |       Mean chroma of color map
+     hue sequence.                |
+                              Range of lightness values
+```
+
+Moreover, the color map name may contain cyclic shift information as well
+as indicating whether it has been reversed by a flag.
+
+```                                              
+              cyclic_wrwbw_90-40_c42_n256_s25_r
+                                          /    \
+                                         /   Indicates that the map is reversed.
+                                        / 
+                   Percentage of color map length
+                   that the map has been rotated by.
+```
+
+## Color Maps
+
+### Linear
+
+```{r fig.width = 7.5, fig.height = 8}
+library("cetcolor")
+display_cet_attribute(attribute = "linear")
+```
+
+### Diverging
+
+```{r fig.width = 7.5, fig.height = 5}
+display_cet_attribute(attribute = "diverging")
+```
+
+### Rainbow
+
+```{r fig.width = 7.5, fig.height = 3.25}
+display_cet_attribute(attribute = "rainbow")
+```
+
+### Cyclic
+
+
+```{r fig.width = 7.5, fig.height = 4}
+display_cet_attribute(attribute = "cyclic")
+```
+
+### Isoluminant
+
+
+```{r fig.width = 7.5, fig.height = 3.25}
+display_cet_attribute(attribute = "isoluminant")
+```
+
+### Overall
+
+```{r fig.width = 7.5, fig.height = 12}
+display_cet_all()
+```
