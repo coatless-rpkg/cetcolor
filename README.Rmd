@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 ```
 
 
-# CET Perceptually Uniform Colour Maps (`colorcet`)
+# CET Perceptually Uniform Colour Maps (`cetcolor`)
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
 to bring to R the color maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
@@ -48,6 +48,7 @@ ggplot(faithfuld, aes(waiting, eruptions)) +
 
 library("gridExtra")
 
+# Frequently used color maps have "nicknames" see ?cet_color_maps 
 grid.arrange(
   g + scale_fill_gradientn(colours = cet_pal(5, name = "fire")),
   g + scale_fill_gradientn(colours = cet_pal(5, name = "inferno")),
@@ -58,7 +59,7 @@ grid.arrange(
 ```
 
 ```{r colordemo, fig.width = 8, fig.height = 10}
-# Show a panel of possible values (no-nicknames)
+# Show a panel of possible values (without nicknames)
 display_cet_all()
 ```
 
@@ -80,7 +81,7 @@ display_cet_all()
     - Provides MATLAB perceptually uniform colormaps in a manner that is similar to this package.
 - [`RColorBrewer`](https://github.com/cran/RColorBrewer)
     - Function interface naming, e.g. `cet_pal(n, name)`, and color map displays.
-- [`scales`](https://github.com/hadley/scales/blob/646b6a433e6f7106bed4173569898fac409d22b5/R/pal-brewer.r) and [`ggplot2](https://github.com/tidyverse/ggplot2/blob/f6f9f9de41c48382c70cbccc253db198e3cdc128/R/scale-brewer.r)
+- [`scales`](https://github.com/hadley/scales/blob/646b6a433e6f7106bed4173569898fac409d22b5/R/pal-brewer.r) and [`ggplot2`](https://github.com/tidyverse/ggplot2/blob/f6f9f9de41c48382c70cbccc253db198e3cdc128/R/scale-brewer.r)
     - Proper ways to interface color palettes with `ggplot2` as shown for `RColorBrewer`.
 
 
