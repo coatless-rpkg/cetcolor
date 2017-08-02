@@ -81,4 +81,3 @@ Perceptually Uniform Colour Maps as released in June 2016.
 \url{http://peterkovesi.com/projects/colourmaps/}
 }
 \keyword{datasets}
-

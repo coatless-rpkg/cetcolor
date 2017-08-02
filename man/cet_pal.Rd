@@ -40,4 +40,3 @@ plot(1:25, 1:25, col=colors, pch=19, cex=3, xlab="", ylab="")
 Peter Kovesi. Good Colour Maps: How to Design Them.
 \href{https://arxiv.org/abs/1509.03700}{arXiv:1509.03700 [cs.GR] 2015}
 }
-
