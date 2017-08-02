@@ -5,7 +5,7 @@
 CET Perceptually Uniform Colour Maps (`cetcolor`)
 =================================================
 
-The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed to bring to R the color maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) that avoid points of locally high color contrast leading to the perception of false anomalies in your data when there is none. The color maps have been designed to avoid this phenomenon by having uniform perceptual contrast over their whole range.
+The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed to bring to R the colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) that avoid points of locally high colour contrast leading to the perception of false anomalies in your data when there is none. The colour maps have been designed to avoid this phenomenon by having uniform perceptual contrast over their whole range.
 
 Sample
 ------
@@ -34,7 +34,7 @@ ggplot(faithfuld, aes(waiting, eruptions)) +
 
 library("gridExtra")
 
-# Frequently used color maps have "nicknames" see ?cet_color_maps 
+# Frequently used colour maps have "nicknames" see ?cet_color_maps 
 grid.arrange(
   g + scale_fill_gradientn(colours = cet_pal(5, name = "fire")),
   g + scale_fill_gradientn(colours = cet_pal(5, name = "inferno")),
@@ -62,19 +62,19 @@ CET
 -   [CET Perceptually Uniform Colour Maps: Download Page](http://peterkovesi.com/projects/colourmaps/)
     -   Location of CSV data, references, and data.
 -   [colorcet for Python](https://github.com/bokeh/colorcet)
-    -   Shorthand naming of color schemes and presentation of palettes
+    -   Shorthand naming of colour schemes and presentation of palettes
 -   [PerceptualColourMaps.jl by Peter Kovesi](https://github.com/peterkovesi/PerceptualColourMaps.jl)
     -   Referenced documentation and possible reimplementation of generation functions to avoid using CSV data.
 
-R Color Palettes
-----------------
+R Colour Palettes
+-----------------
 
--   [`viridis`](https://github.com/sjmgarnier/viridis)
-    -   Provides MATLAB perceptually uniform colormaps in a manner that is similar to this package.
--   [`RColorBrewer`](https://github.com/cran/RColorBrewer)
-    -   Function interface naming, e.g. `cet_pal(n, name)`, and color map displays.
+-   [`viridis`](https://cran.r-project.org/package=viridis) ([Source](https://github.com/sjmgarnier/viridis))
+    -   Provides MATLAB perceptually uniform colour maps in a manner that is similar to this package.
+-   [`RColorBrewer`](https://cran.r-project.org/package=RColorBrewer) ([Source](RColorBrewer))
+    -   Function interface naming, e.g. `cet_pal(n, name)`, and colour map displays.
 -   [`scales`](https://github.com/hadley/scales/blob/646b6a433e6f7106bed4173569898fac409d22b5/R/pal-brewer.r) and [`ggplot2`](https://github.com/tidyverse/ggplot2/blob/f6f9f9de41c48382c70cbccc253db198e3cdc128/R/scale-brewer.r)
-    -   Proper ways to interface color palettes with `ggplot2` as shown for `RColorBrewer`.
+    -   Proper ways to interface colour palettes with `ggplot2` as shown for `RColorBrewer`.
 
 Future
 ======

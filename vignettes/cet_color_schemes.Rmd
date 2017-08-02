@@ -12,14 +12,16 @@ vignette: >
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
 to bring to R the color maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
-in @ARXIV:Kovesi:CETCOLORMAPS that avoid points of locally high color contrast 
+in @ARXIV:Kovesi:CETCOLORMAPS that avoid points of locally high colour contrast 
 leading to the perception of false anomalies in your data when there is none.
-The color maps have been designed to avoid this phenomenon by having uniform 
+The colour maps have been designed to avoid this phenomenon by having uniform 
 perceptual contrast over their whole range.
 
-## Supported Color Maps
+This vignette attempts to summarize information presented at <http://peterkovesi.com/projects/colourmaps/>.
 
-There are 51 supported color maps organised according to the attributes: 
+## Supported Colour Maps
+
+There are 51 supported colour maps organised according to the attributes: 
 
 - Linear
 - Diverging
@@ -27,21 +29,21 @@ There are 51 supported color maps organised according to the attributes:
 - Cyclic
 - Isoluminant
 
-## Organisation of Color Maps
+## Organisation of Colour Maps
 
-Each color map is named as follows:
+Each colour map is named as follows:
 
 ```
                     linear_kryw_5-100_c67_n256
                       /      /    |    \    \
-  Color map attribute(s)    /     |     \    Number of color map entries
+Colour map attribute(s)     /     |     \    Number of colour map entries
                            /      |      \
-     String indicating nominal    |       Mean chroma of color map
+     String indicating nominal    |       Mean chroma of colour map
      hue sequence.                |
                               Range of lightness values
 ```
 
-Moreover, the color map name may contain cyclic shift information as well
+Moreover, the colour map name may contain cyclic shift information as well
 as indicating whether it has been reversed by a flag.
 
 ```                                              
@@ -49,11 +51,11 @@ as indicating whether it has been reversed by a flag.
                                           /    \
                                          /   Indicates that the map is reversed.
                                         / 
-                   Percentage of color map length
+                   Percentage of colour map length
                    that the map has been rotated by.
 ```
 
-## Color Maps
+## Colour Maps
 
 ### Linear
 
