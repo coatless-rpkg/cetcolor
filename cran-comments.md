@@ -9,6 +9,12 @@
 
 * This is a new release.
 
+* Possibly mis-spelled words in DESCRIPTION:
+  CET (2:8, 7:8)
+  Kovesi (6:75)
+  
+* These are not mis-spelled words. In particular, note that the first mis-spelled word is the organization that the colour maps author belongs to and the second word is the last name of the colour maps author.
+
 ## Reverse dependencies
 
 This is a new release, so there are no reverse dependencies.
