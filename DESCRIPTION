@@ -3,7 +3,7 @@ Title: CET Perceptually Uniform Colour Maps
 Version: 0.1.0
 Authors@R: c(person("James", "Balamuta", email = "balamut2@illinois.edu", role = c("aut", "cre","cph")),
              person("Peter", "Kovesi", email = "peter.kovesi@uwa.edu.au", role = c("cph"), comment="Creator of CET Color Maps"))
-Description: Collection of perceptually uniform colormaps made by Peter Kovesi
+Description: Collection of perceptually uniform colour maps made by Peter Kovesi
     at CET.
 Depends:
     R (>= 3.3.2)
