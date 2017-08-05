@@ -23,6 +23,7 @@ library("cetcolor")
 
 # Get RGB Hexadecimals for graphing
 cet_pal(5, name = "blues")
+#> [1] "#F1F1F1" "#C0D3EB" "#93B5DD" "#7197C1" "#3B7CB2"
 
 # Sample use with ggplot2
 library("ggplot2")
@@ -43,10 +44,14 @@ grid.arrange(
 )
 ```
 
+![](README-ggplot_example-1.png)
+
 ``` r
 # Show a panel of possible values (without nicknames)
 display_cet_all()
 ```
+
+![](README-colordemo-1.png)
 
 References
 ==========
