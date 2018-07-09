@@ -101,7 +101,9 @@ old_to_new_names = c(
 deprecated_palettes = c(
   "diverging-isoluminant_cjm_75_c24_n256",
   "diverging-rainbow_bgymr_45-85_c67_n256",
-  "diverging_gkr_60-10_c40_n256"
+  "diverging_gkr_60-10_c40_n256",
+  "rainbow_bgyr_35-85_c73_n256",
+  "rainbow_bgyrm_35-85_c71_n256"
 )
 
 # Alt name array
