@@ -1,13 +1,11 @@
 # Used for n > 1
 set_display_dim = function(num) {
-  switch(as.character(num),  #(r,c)
-         "5"  = c(3,2),
-         "6"  = c(3,2),
-         "8"  = c(4,2),
-         "14" = c(5,3),
-         "23" = c(8,3),
-         "51" = c(17,3)
-  )
+
+  if(num < 10) {
+    c(num %/% 2 + (num %% 2 != 0), 2)
+  } else {
+    c(num %/% 3 + (num %% 2 != 0), 3)
+  }
 }
 
 # Short function to make an image
@@ -24,6 +22,7 @@ make_gradient = function(n, name, alpha) {
 }
 
 make_gradient_grid = function(n, color_maps, alpha) {
+  print(set_display_dim(length(color_maps)))
   par(mfrow = set_display_dim(length(color_maps)), mar = rep(1.3, 4))
   for(i in color_maps) {
     make_gradient(n, i, alpha)
