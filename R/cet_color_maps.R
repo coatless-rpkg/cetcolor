@@ -117,7 +117,17 @@ deprecated_palettes = c(
   "diverging-rainbow_bgymr_45-85_c67_n256",
   "diverging_gkr_60-10_c40_n256",
   "rainbow_bgyr_35-85_c73_n256",
-  "rainbow_bgyrm_35-85_c71_n256"
+  "rainbow_bgyrm_35-85_c71_n256",
+  "linear_bgy_10-95_c74_n256",
+  "linear_bgyw_15-100_c67_n256",
+  "linear_bgyw_15-100_c68_n256",
+  "linear_bmw_5-95_c89_n256",
+  "linear_bmy_10-95_c78_n256",
+  "linear_kry_5-95_c72_n256",
+  "linear_kry_5-98_c75_n256",
+  "linear_kryw_5-100_c64_n256",
+  "linear_kryw_5-100_c67_n256",
+  "linear_ternary-green_0-46_c42_n256"
 )
 
 # Alt name array
