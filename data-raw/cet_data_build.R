@@ -11,6 +11,9 @@ color_files = list.files("data-raw/CETperceptual_csv_0_1","*.csv")
 # Get color map names
 color_names = tools::file_path_sans_ext(color_files)
 
+# Remove "CET-" and force names to be in lowercase
+color_names = tolower(gsub("CET-", "", color_names))
+
 # Count of color maps
 n = length(color_names)
 
@@ -27,7 +30,7 @@ for(i in seq_along(color_files)){
   cet_color_maps[[i]] = temp
 
   # Provide R help doc output
-  message("\\item \\code{", color_names[i],"}")
+  message("- `", color_names[i],"`")
 }
 
 # Release finish data build to data/
