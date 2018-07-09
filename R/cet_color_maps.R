@@ -35,9 +35,9 @@
 #' - `d12`, formerly: `diverging-isoluminant_cjm_75_c23_n256`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
 #' - `diverging_gkr_60-10_c40_n256`
-#' - `isoluminant_cgo_70_c39_n256`
-#' - `isoluminant_cgo_80_c38_n256`, `isolum`
-#' - `isoluminant_cm_70_c39_n256`
+#' - `i3`, formerly: `isoluminant_cgo_70_c39_n256`
+#' - `i2`, `isolum`, formerly: `isoluminant_cgo_80_c38_n256`
+#' - `i1`, formerly: `isoluminant_cm_70_c39_n256`
 #' - `linear_bgy_10-95_c74_n256`, `bgy`
 #' - `linear_bgyw_15-100_c67_n256`
 #' - `linear_bgyw_15-100_c68_n256`, `bgyw`
@@ -94,7 +94,10 @@ old_to_new_names = c(
   "diverging-isoluminant_cjm_75_c23_n256" = "d12",
   "rainbow_bgyrm_35-85_c69_n256" = "r1",
   "rainbow_bgyr_35-85_c72_n256" = "r2",
-  "diverging-rainbow_bgymr_45-85_c67_n256" = "r3"
+  "diverging-rainbow_bgymr_45-85_c67_n256" = "r3",
+  "isoluminant_cm_70_c39_n256" = "i1",
+  "isoluminant_cgo_80_c38_n256" = "i2",
+  "isoluminant_cgo_70_c39_n256" = "i3"
 )
 
 # Need to remove these... At some point?
@@ -127,6 +130,6 @@ alt_color_pairs = c(
   gwv        = "d2",
   bjy        = "d7",
   colorwheel = "c2s",
-  isolum     = "isoluminant_cgo_80_c38_n256",
+  isolum     = "i2",
   rainbow    = "rainbow_bgyr_35-85_c73_n256"
 )
