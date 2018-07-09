@@ -4,14 +4,23 @@
 # package load
 data(cet_color_maps, package = "cetcolor", envir = parent.env(environment()))
 
-determine_group = function(name)  color_formal_names[grepl(name, color_formal_names)]
+determine_group = function(name) {
+
+  if(name != "colorblind") {
+    search_pattern = paste0("^[", substr(name, 1, 1), "][[:digit:]]+$")
+  } else {
+    search_pattern = paste0("cb..[[:digit:]]+$")
+  }
+
+  color_formal_names[grepl(name, color_formal_names) | grepl(search_pattern, color_formal_names)]
+}
 
 # For the nickname search see the cet_color_maps file for the mapping
 color_nicknames = names(alt_color_pairs)
 
 color_formal_names = names(cet_color_maps)
 
-color_attribute_names = c("rainbow","linear","isoluminant","diverging","cyclic")
+color_attribute_names = c("rainbow", "linear", "isoluminant", "diverging", "cyclic", "colorblind")
 
 color_groups = sapply(color_attribute_names, FUN = determine_group)
 
