@@ -93,6 +93,14 @@ old_to_new_names = c(
   "diverging-isoluminant_cjo_70_c25_n256" = "d11",
   "diverging-isoluminant_cjm_75_c23_n256" = "d12"
 )
+
+# Need to remove these... At some point?
+deprecated_palettes = c(
+  "diverging-isoluminant_cjm_75_c24_n256",
+  "diverging-rainbow_bgymr_45-85_c67_n256",
+  "diverging_gkr_60-10_c40_n256"
+)
+
 # Alt name array
 alt_color_pairs = c(
   bgy        = "linear_bgy_10-95_c74_n256",
