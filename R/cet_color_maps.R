@@ -34,7 +34,7 @@
 #' - `d11`, formerly: `diverging-isoluminant_cjo_70_c25_n256`
 #' - `d12`, formerly: `diverging-isoluminant_cjm_75_c23_n256`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
-#' - `diverging-rainbow_bgymr_45-85_c67_n256`
+#' - `r3`, formerly: `diverging-rainbow_bgymr_45-85_c67_n256`
 #' - `diverging_gkr_60-10_c40_n256`
 #' - `isoluminant_cgo_70_c39_n256`
 #' - `isoluminant_cgo_80_c38_n256`, `isolum`
@@ -60,9 +60,9 @@
 #' - `linear_ternary-blue_0-44_c57_n256`, `kb`
 #' - `linear_ternary-green_0-46_c42_n256`, `kg`
 #' - `linear_ternary-red_0-50_c52_n256`, `kr`
-#' - `rainbow_bgyr_35-85_c72_n256`
+#' - `r2`, formerly: `rainbow_bgyr_35-85_c72_n256`
 #' - `rainbow_bgyr_35-85_c73_n256`, `rainbow`
-#' - `rainbow_bgyrm_35-85_c69_n256`
+#' - `r1`, formerly: `rainbow_bgyrm_35-85_c69_n256`
 #' - `rainbow_bgyrm_35-85_c71_n256`
 #'
 #' @references
@@ -91,7 +91,10 @@ old_to_new_names = c(
   "diverging_bwr_55-98_c37_n256" = "d9",
   "diverging_cwm_80-100_c22_n256" = "d10",
   "diverging-isoluminant_cjo_70_c25_n256" = "d11",
-  "diverging-isoluminant_cjm_75_c23_n256" = "d12"
+  "diverging-isoluminant_cjm_75_c23_n256" = "d12",
+  "rainbow_bgyrm_35-85_c69_n256" = "r1",
+  "rainbow_bgyr_35-85_c72_n256" = "r2",
+  "diverging-rainbow_bgymr_45-85_c67_n256" = "r3"
 )
 
 # Need to remove these... At some point?
