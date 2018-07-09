@@ -14,7 +14,6 @@
 #' The following color maps have been included:
 #'
 #' - `_bgyr_35-85_c73_n256`
-#' - `d12`, formerly: `diverging-isoluminant_cjm_75_c23_n256`
 #' - `c1`, formerly: `cyclic_mrybm_35-75_c68_n256`
 #' - `c1s`, formerly: `cyclic_mrybm_35-75_c68_n256_s25`
 #' - `c2`, formerly: `cyclic_mygbm_30-95_c78_n256`
@@ -23,19 +22,20 @@
 #' - `c4s`, formerly: `cyclic_wrwbw_40-90_c42_n256_s25`
 #' - `c5`, formerly: `cyclic_grey_15-85_c0_n256`
 #' - `c5s`, formerly: `cyclic_grey_15-85_c0_n256_s25`
-#' - `diverging-isoluminant_cjm_75_c24_n256`
-#' - `d11`, formerly: `diverging-isoluminant_cjo_70_c25_n256`
-#' - `d8`, formerly: `diverging-linear_bjr_30-55_c53_n256`
-#' - `d7`, `bjy`, formerly: `diverging-linear_bjy_30-90_c45_n256`
-#' - `diverging-rainbow_bgymr_45-85_c67_n256`
+#' - `d1`, `coolwarm`, formerly: `diverging_bwr_40-95_c42_n256`
+#' - `d2`, `gwv`, formerly: `diverging_gwv_55-95_c39_n256`
+#' - `d3`, formerly: `diverging_gwr_55-95_c38_n256`
 #' - `d4`, `bkr`, formerly: `diverging_bkr_55-10_c35_n256`
 #' - `d6`, `bky`, formerly: `diverging_bky_60-10_c30_n256`
-#' - `d1`, `coolwarm`, formerly: `diverging_bwr_40-95_c42_n256`
+#' - `d7`, `bjy`, formerly: `diverging-linear_bjy_30-90_c45_n256`
+#' - `d8`, formerly: `diverging-linear_bjr_30-55_c53_n256`
 #' - `d9`, formerly: `diverging_bwr_55-98_c37_n256`
 #' - `d10`, formerly: `diverging_cwm_80-100_c22_n256`
+#' - `d11`, formerly: `diverging-isoluminant_cjo_70_c25_n256`
+#' - `d12`, formerly: `diverging-isoluminant_cjm_75_c23_n256`
+#' - `diverging-isoluminant_cjm_75_c24_n256`
+#' - `diverging-rainbow_bgymr_45-85_c67_n256`
 #' - `diverging_gkr_60-10_c40_n256`
-#' - `d3`, formerly: `diverging_gwr_55-95_c38_n256`
-#' - `d2`, `gwv`, formerly: `diverging_gwv_55-95_c39_n256`
 #' - `isoluminant_cgo_70_c39_n256`
 #' - `isoluminant_cgo_80_c38_n256`, `isolum`
 #' - `isoluminant_cm_70_c39_n256`
