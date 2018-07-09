@@ -15,14 +15,14 @@
 #'
 #' - `_bgyr_35-85_c73_n256`
 #' - `diverging-isoluminant_cjm_75_c23_n256`
-#' - `c5`, formerly: `cyclic_grey_15-85_c0_n256`
-#' - `c5s`, formerly: `cyclic_grey_15-85_c0_n256_s25`
 #' - `c1`, formerly: `cyclic_mrybm_35-75_c68_n256`
 #' - `c1s`, formerly: `cyclic_mrybm_35-75_c68_n256_s25`
 #' - `c2`, formerly: `cyclic_mygbm_30-95_c78_n256`
 #' - `c2s`, `colorwheel`, formerly: `cyclic_mygbm_30-95_c78_n256_s25`
 #' - `c4`, formerly: `cyclic_wrwbw_40-90_c42_n256`
 #' - `c4s`, formerly: `cyclic_wrwbw_40-90_c42_n256_s25`
+#' - `c5`, formerly: `cyclic_grey_15-85_c0_n256`
+#' - `c5s`, formerly: `cyclic_grey_15-85_c0_n256_s25`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
 #' - `diverging-isoluminant_cjo_70_c25_n256`
 #' - `diverging-linear_bjr_30-55_c53_n256`
