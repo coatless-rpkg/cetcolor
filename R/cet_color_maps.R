@@ -35,9 +35,9 @@
 #' - `d12`, formerly: `diverging-isoluminant_cjm_75_c23_n256`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
 #' - `diverging_gkr_60-10_c40_n256`
-#' - `i3`, formerly: `isoluminant_cgo_70_c39_n256`
-#' - `i2`, `isolum`, formerly: `isoluminant_cgo_80_c38_n256`
 #' - `i1`, formerly: `isoluminant_cm_70_c39_n256`
+#' - `i2`, `isolum`, formerly: `isoluminant_cgo_80_c38_n256`
+#' - `i3`, formerly: `isoluminant_cgo_70_c39_n256`
 #' - `linear_bgy_10-95_c74_n256`, `bgy`
 #' - `linear_bgyw_15-100_c67_n256`
 #' - `linear_bgyw_15-100_c68_n256`, `bgyw`
