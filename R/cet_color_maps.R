@@ -38,27 +38,27 @@
 #' - `i1`, formerly: `isoluminant_cm_70_c39_n256`
 #' - `i2`, `isolum`, formerly: `isoluminant_cgo_80_c38_n256`
 #' - `i3`, formerly: `isoluminant_cgo_70_c39_n256`
-#' - `linear_bgy_10-95_c74_n256`, `bgy`
-#' - `linear_bgyw_15-100_c67_n256`
-#' - `linear_bgyw_15-100_c68_n256`, `bgyw`
-#' - `l6`, formerly: `linear_blue_5-95_c73_n256`
-#' - `l12`, `blues`, formerly: `linear_blue_95-50_c20_n256`
-#' - `l7`, formerly: `linear_bmw_5-95_c86_n256`
-#' - `linear_bmw_5-95_c89_n256`, `bmw`
-#' - `l8`, formerly: linear_bmy_10-95_c71_n256`
-#' - `linear_bmy_10-95_c78_n256`, `inferno`
-#' - `l10`, formerly: `linear_gow_60-85_c27_n256`
-#' - `l11`, formerly: `linear_gow_65-90_c35_n256`
-#' - `l5`, `kgy`, formerly: `linear_green_5-95_c69_n256`
 #' - `l1`, `gray`, formerly: `linear_grey_0-100_c0_n256`
 #' - `l2`, `dimgray` formerly: `linear_grey_10-95_c0_n256`
+#' - `l5`, `kgy`, formerly: `linear_green_5-95_c69_n256`
+#' - `l6`, formerly: `linear_blue_5-95_c73_n256`
+#' - `l7`, formerly: `linear_bmw_5-95_c86_n256`
+#' - `l8`, formerly: linear_bmy_10-95_c71_n256`
+#' - `l10`, formerly: `linear_gow_60-85_c27_n256`
+#' - `l11`, formerly: `linear_gow_65-90_c35_n256`
+#' - `l12`, `blues`, formerly: `linear_blue_95-50_c20_n256`
+#' - `l13`, `kr`, formerly: `linear_ternary-red_0-50_c52_n256`
+#' - `l15`, `kb`, formerly: `linear_ternary-blue_0-44_c57_n256`
+#' - `bgy`, `linear_bgy_10-95_c74_n256`
+#' - `linear_bgyw_15-100_c67_n256`
+#' - `bgyw`, `linear_bgyw_15-100_c68_n256`
+#' - `bmw`, `linear_bmw_5-95_c89_n256`
+#' - `inferno`, `linear_bmy_10-95_c78_n256`
 #' - `linear_kry_5-95_c72_n256`
 #' - `linear_kry_5-98_c75_n256`
 #' - `linear_kryw_5-100_c64_n256`
-#' - `linear_kryw_5-100_c67_n256`, `fire`
-#' - `l15`, `kb`, formerly: `linear_ternary-blue_0-44_c57_n256`
-#' - `linear_ternary-green_0-46_c42_n256`, `kg`
-#' - `l13`, `kr`, formerly: `linear_ternary-red_0-50_c52_n256`
+#' - `fire`, `linear_kryw_5-100_c67_n256`
+#' - `kg`, `linear_ternary-green_0-46_c42_n256`
 #' - `r1`, formerly: `rainbow_bgyrm_35-85_c69_n256`
 #' - `r2`, formerly: `rainbow_bgyr_35-85_c72_n256`
 #' - `r3`, formerly: `diverging-rainbow_bgymr_45-85_c67_n256`
