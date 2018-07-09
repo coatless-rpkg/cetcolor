@@ -14,15 +14,15 @@
 #' The following color maps have been included:
 #'
 #' - `_bgyr_35-85_c73_n256`
-#' - `cyclic_grey_15-85_c0_n256`
-#' - `cyclic_grey_15-85_c0_n256_s25`
-#' - `cyclic_mrybm_35-75_c68_n256`
-#' - `cyclic_mrybm_35-75_c68_n256_s25`
-#' - `cyclic_mygbm_30-95_c78_n256`
-#' - `cyclic_mygbm_30-95_c78_n256_s25`, `colorwheel`
-#' - `cyclic_wrwbw_40-90_c42_n256`
-#' - `cyclic_wrwbw_40-90_c42_n256_s25`
 #' - `diverging-isoluminant_cjm_75_c23_n256`
+#' - `c5`, formerly: `cyclic_grey_15-85_c0_n256`
+#' - `c5s`, formerly: `cyclic_grey_15-85_c0_n256_s25`
+#' - `c1`, formerly: `cyclic_mrybm_35-75_c68_n256`
+#' - `c1s`, formerly: `cyclic_mrybm_35-75_c68_n256_s25`
+#' - `c2`, formerly: `cyclic_mygbm_30-95_c78_n256`
+#' - `c2s`, `colorwheel`, formerly: `cyclic_mygbm_30-95_c78_n256_s25`
+#' - `c4`, formerly: `cyclic_wrwbw_40-90_c42_n256`
+#' - `c4s`, formerly: `cyclic_wrwbw_40-90_c42_n256_s25`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
 #' - `diverging-isoluminant_cjo_70_c25_n256`
 #' - `diverging-linear_bjr_30-55_c53_n256`
@@ -71,6 +71,17 @@
 #' <http://peterkovesi.com/projects/colourmaps/CETperceptual_csv_0_1.zip>
 "cet_color_maps"
 
+# Map old to new
+old_to_new_names = c(
+  "cyclic_mrybm_35-75_c68_n256" = "c1",
+  "cyclic_mrybm_35-75_c68_n256_s25" = "c1s",
+  "cyclic_mygbm_30-95_c78_n256" = "c2",
+  "cyclic_mygbm_30-95_c78_n256_s25" = "c2s",
+  "cyclic_wrwbw_40-90_c42_n256" = "c4",
+  "cyclic_wrwbw_40-90_c42_n256_s25" = "c4s",
+  "cyclic_grey_15-85_c0_n256" = "c5",
+  "cyclic_grey_15-85_c0_n256_s25" = "c5s"
+)
 # Alt name array
 alt_color_pairs = c(
   bgy        = "linear_bgy_10-95_c74_n256",
@@ -91,7 +102,7 @@ alt_color_pairs = c(
   coolwarm   = "diverging_bwr_40-95_c42_n256",
   gwv        = "diverging_gwv_55-95_c39_n256",
   bjy        = "diverging-linear_bjy_30-90_c45_n256",
-  colorwheel = "cyclic_mygbm_30-95_c78_s25_n256",
+  colorwheel = "c2s",
   isolum     = "isoluminant_cgo_80_c38_n256",
   rainbow    = "rainbow_bgyr_35-85_c73_n256"
 )
