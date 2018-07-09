@@ -14,7 +14,7 @@
 #' The following color maps have been included:
 #'
 #' - `_bgyr_35-85_c73_n256`
-#' - `diverging-isoluminant_cjm_75_c23_n256`
+#' - `d12`, formerly: `diverging-isoluminant_cjm_75_c23_n256`
 #' - `c1`, formerly: `cyclic_mrybm_35-75_c68_n256`
 #' - `c1s`, formerly: `cyclic_mrybm_35-75_c68_n256_s25`
 #' - `c2`, formerly: `cyclic_mygbm_30-95_c78_n256`
@@ -24,18 +24,18 @@
 #' - `c5`, formerly: `cyclic_grey_15-85_c0_n256`
 #' - `c5s`, formerly: `cyclic_grey_15-85_c0_n256_s25`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
-#' - `diverging-isoluminant_cjo_70_c25_n256`
-#' - `diverging-linear_bjr_30-55_c53_n256`
-#' - `diverging-linear_bjy_30-90_c45_n256`, `bjy`
+#' - `d11`, formerly: `diverging-isoluminant_cjo_70_c25_n256`
+#' - `d8`, formerly: `diverging-linear_bjr_30-55_c53_n256`
+#' - `d7`, `bjy`, formerly: `diverging-linear_bjy_30-90_c45_n256`
 #' - `diverging-rainbow_bgymr_45-85_c67_n256`
-#' - `diverging_bkr_55-10_c35_n256`, `bkr`
-#' - `diverging_bky_60-10_c30_n256`, `bky`
-#' - `diverging_bwr_40-95_c42_n256`, `coolwarm`
-#' - `diverging_bwr_55-98_c37_n256`
-#' - `diverging_cwm_80-100_c22_n256`
+#' - `d4`, `bkr`, formerly: `diverging_bkr_55-10_c35_n256`
+#' - `d6`, `bky`, formerly: `diverging_bky_60-10_c30_n256`
+#' - `d1`, `coolwarm`, formerly: `diverging_bwr_40-95_c42_n256`
+#' - `d9`, formerly: `diverging_bwr_55-98_c37_n256`
+#' - `d10`, formerly: `diverging_cwm_80-100_c22_n256`
 #' - `diverging_gkr_60-10_c40_n256`
-#' - `diverging_gwr_55-95_c38_n256`
-#' - `diverging_gwv_55-95_c39_n256`, `gwv`
+#' - `d3`, formerly: `diverging_gwr_55-95_c38_n256`
+#' - `d2`, `gwv`, formerly: `diverging_gwv_55-95_c39_n256`
 #' - `isoluminant_cgo_70_c39_n256`
 #' - `isoluminant_cgo_80_c38_n256`, `isolum`
 #' - `isoluminant_cm_70_c39_n256`
@@ -80,7 +80,18 @@ old_to_new_names = c(
   "cyclic_wrwbw_40-90_c42_n256" = "c4",
   "cyclic_wrwbw_40-90_c42_n256_s25" = "c4s",
   "cyclic_grey_15-85_c0_n256" = "c5",
-  "cyclic_grey_15-85_c0_n256_s25" = "c5s"
+  "cyclic_grey_15-85_c0_n256_s25" = "c5s",
+  "diverging_bwr_40-95_c42_n256" = "d1",
+  "diverging_gwv_55-95_c39_n256" = "d2",
+  "diverging_gwr_55-95_c38_n256" = "d3",
+  "diverging_bkr_55-10_c35_n256" = "d4",
+  "diverging_bky_60-10_c30_n256" = "d6",
+  "diverging-linear_bjy_30-90_c45_n256" = "d7",
+  "diverging-linear_bjr_30-55_c53_n256" = "d8",
+  "diverging_bwr_55-98_c37_n256" = "d9",
+  "diverging_cwm_80-100_c22_n256" = "d10",
+  "diverging-isoluminant_cjo_70_c25_n256" = "d11",
+  "diverging-isoluminant_cjm_75_c23_n256" = "d12"
 )
 # Alt name array
 alt_color_pairs = c(
@@ -97,11 +108,11 @@ alt_color_pairs = c(
   kb         = "linear_ternary_blue_0-44_c57_n256",
   kg         = "linear_ternary_green_0-46_c42_n256",
   kr         = "linear_ternary_red_0-50_c52_n256",
-  bkr        = "diverging_bkr_55-10_c35_n256",
-  bky        = "diverging_bky_60-10_c30_n256",
-  coolwarm   = "diverging_bwr_40-95_c42_n256",
-  gwv        = "diverging_gwv_55-95_c39_n256",
-  bjy        = "diverging-linear_bjy_30-90_c45_n256",
+  bkr        = "d4",
+  bky        = "d6",
+  coolwarm   = "d1",
+  gwv        = "d2",
+  bjy        = "d7",
   colorwheel = "c2s",
   isolum     = "isoluminant_cgo_80_c38_n256",
   rainbow    = "rainbow_bgyr_35-85_c73_n256"
