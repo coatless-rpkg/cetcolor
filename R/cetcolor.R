@@ -62,22 +62,22 @@ cet_make_scheme = function(n, name, alpha) {
 
 #' CET Perceptually Uniform Color Maps
 #'
-#' Extract \code{n} RGB Hexadecimal colors from the perceptually uniform color
-#' maps developed by \href{http://peterkovesi.com/projects/colourmaps/}{Peter Kovesi}.
+#' Extract `n` RGB Hexadecimal colors from the perceptually uniform color
+#' maps developed by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/).
 #' @export
 #'
-#' @param n      A \code{numeric} value greater than one indicating how
+#' @param n      A `numeric` value greater than one indicating how
 #'               many colors to use from the color map.
 #'
-#' @param name   A \code{string} indicating the color map to use. There
-#'               are 51 options available. Please see \code{\link{cet_color_maps}}
-#'               for more information. By default, the \code{"rainbow"} color
+#' @param name   A `string` indicating the color map to use. There
+#'               are 51 options available. Please see [cet_color_maps()]
+#'               for more information. By default, the `"rainbow"` color
 #'               scheme is used.
 #'
-#' @param alpha  A \code{numeric} value between [0, 1] that indicates the level
+#' @param alpha  A `numeric` value between \eqn{[0, 1]} that indicates the level
 #'               of transparency.
 #'
-#' @return A \code{character} vector containing the RGB hexadecimal
+#' @return A `character` vector containing the RGB hexadecimal
 #' representation of the requested color map.
 #'
 #' @examples
@@ -91,7 +91,7 @@ cet_make_scheme = function(n, name, alpha) {
 #'
 #' @references
 #' Peter Kovesi. Good Colour Maps: How to Design Them.
-#' \href{https://arxiv.org/abs/1509.03700}{arXiv:1509.03700 [cs.GR] 2015}
+#' [arXiv:1509.03700 cs.GR 2015](https://arxiv.org/abs/1509.03700)
 cet_pal = function(n, name = "rainbow", alpha = 1) {
 
   name = search_palettes(name)

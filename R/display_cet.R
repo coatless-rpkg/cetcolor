@@ -43,10 +43,10 @@ display_cet_pal = function(n = 256, name = "rainbow", alpha = 1) {
   display_gradient(color_map, name)
 }
 
-#' @param attribute A \code{character} string indicating the attribute.
-#'                  Accepted values are: \code{"rainbow"} (Default),
-#'                  \code{"linear"}, \code{"diverging"}, \code{"cyclic"}, and
-#'                  \code{"isoluminant"}.
+#' @param attribute A `character` string indicating the attribute.
+#'                  Accepted values are: `"rainbow"` (Default),
+#'                  `"linear"`, `"diverging"`, `"cyclic"`, and
+#'                  `"isoluminant"`.
 #' @rdname display_cet
 #' @export
 display_cet_attribute = function(n = 256, attribute = "rainbow", alpha = 1) {

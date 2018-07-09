@@ -17,11 +17,11 @@ display_cet_all(n = 256, alpha = 1)
 many colors to use from the color map.}
 
 \item{name}{A \code{string} indicating the color map to use. There
-are 51 options available. Please see \code{\link{cet_color_maps}}
+are 51 options available. Please see \code{\link[=cet_color_maps]{cet_color_maps()}}
 for more information. By default, the \code{"rainbow"} color
 scheme is used.}
 
-\item{alpha}{A \code{numeric} value between [0, 1] that indicates the level
+\item{alpha}{A \code{numeric} value between \eqn{[0, 1]} that indicates the level
 of transparency.}
 
 \item{attribute}{A \code{character} string indicating the attribute.

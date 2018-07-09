@@ -11,11 +11,11 @@ cet_pal(n, name = "rainbow", alpha = 1)
 many colors to use from the color map.}
 
 \item{name}{A \code{string} indicating the color map to use. There
-are 51 options available. Please see \code{\link{cet_color_maps}}
+are 51 options available. Please see \code{\link[=cet_color_maps]{cet_color_maps()}}
 for more information. By default, the \code{"rainbow"} color
 scheme is used.}
 
-\item{alpha}{A \code{numeric} value between [0, 1] that indicates the level
+\item{alpha}{A \code{numeric} value between \eqn{[0, 1]} that indicates the level
 of transparency.}
 }
 \value{
@@ -38,5 +38,5 @@ plot(1:25, 1:25, col=colors, pch=19, cex=3, xlab="", ylab="")
 }
 \references{
 Peter Kovesi. Good Colour Maps: How to Design Them.
-\href{https://arxiv.org/abs/1509.03700}{arXiv:1509.03700 [cs.GR] 2015}
+\href{https://arxiv.org/abs/1509.03700}{arXiv:1509.03700 cs.GR 2015}
 }

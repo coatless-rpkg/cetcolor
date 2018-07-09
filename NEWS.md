@@ -1,3 +1,9 @@
+# cetcolor 0.2.0
+
+## Changes
+
+- Switch documentation from Rd format to using Markdown
+
 # cetcolor 0.1.0
 
 ## Features
