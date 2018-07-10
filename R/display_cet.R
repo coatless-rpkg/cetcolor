@@ -22,7 +22,6 @@ make_gradient = function(n, name, alpha) {
 }
 
 make_gradient_grid = function(n, color_maps, alpha) {
-  print(set_display_dim(length(color_maps)))
   par(mfrow = set_display_dim(length(color_maps)), mar = rep(1.3, 4))
   for(i in color_maps) {
     make_gradient(n, i, alpha)
