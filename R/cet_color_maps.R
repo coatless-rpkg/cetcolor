@@ -13,7 +13,12 @@
 #'
 #' The following color maps have been included:
 #'
+#' **Miscellaneous**
+#'
 #' - `_bgyr_35-85_c73_n256`
+#'
+#' **Cyclic Colour Maps**
+#'
 #' - `c1`, formerly: `cyclic_mrybm_35-75_c68_n256`
 #' - `c1s`, formerly: `cyclic_mrybm_35-75_c68_n256_s25`
 #' - `c2`, formerly: `cyclic_mygbm_30-95_c78_n256`
@@ -22,6 +27,9 @@
 #' - `c4s`, formerly: `cyclic_wrwbw_40-90_c42_n256_s25`
 #' - `c5`, formerly: `cyclic_grey_15-85_c0_n256`
 #' - `c5s`, formerly: `cyclic_grey_15-85_c0_n256_s25`
+#'
+#' **Diverging Colour Maps**
+#'
 #' - `d1`, `coolwarm`, formerly: `diverging_bwr_40-95_c42_n256`
 #' - `d1a`, long: `diverging_bwr_20-95_c54_n256`
 #' - `d2`, `gwv`, formerly: `diverging_gwv_55-95_c39_n256`
@@ -37,9 +45,15 @@
 #' - `d13`, long: `diverging_bwg_20-95_c41_n256`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
 #' - `diverging_gkr_60-10_c40_n256`
+#'
+#' **Isoluminant Colour Maps**
+#'
 #' - `i1`, formerly: `isoluminant_cm_70_c39_n256`
 #' - `i2`, `isolum`, formerly: `isoluminant_cgo_80_c38_n256`
 #' - `i3`, formerly: `isoluminant_cgo_70_c39_n256`
+#'
+#' **Linear Colour Maps**
+#'
 #' - `l1`, `gray`, formerly: `linear_grey_0-100_c0_n256`
 #' - `l2`, `dimgray` formerly: `linear_grey_10-95_c0_n256`
 #' - `l3`, long: `linear_kryw_0-100_c71_n256`
@@ -69,11 +83,16 @@
 #' - `linear_kryw_5-100_c64_n256`
 #' - `fire`, `linear_kryw_5-100_c67_n256`
 #' - `kg`, `linear_ternary-green_0-46_c42_n256`
+#'
+#' **Rainbow Colour Maps**
+#'
 #' - `r1`, formerly: `rainbow_bgyrm_35-85_c69_n256`
 #' - `r2`, formerly: `rainbow_bgyr_35-85_c72_n256`
 #' - `r3`, formerly: `diverging-rainbow_bgymr_45-85_c67_n256`
 #' - `rainbow`, `rainbow_bgyr_35-85_c73_n256`
 #' - `rainbow_bgyrm_35-85_c71_n256`
+#'
+#' **Colour Blind**
 #'
 #' - `cbl1`,  long: `linear-protanopic-deuteranopic_kbjyw_5-95_c25_n256`
 #' - `cbl2`,  long: `linear-protanopic-deuteranopic_kbw_5-98_c40_n256`
@@ -85,6 +104,7 @@
 #' - `cbtd1`, long: `diverging-tritanopic_cwr_75-98_c20_n256`
 #' - `cbtc1`, long: `cyclic-tritanopic_cwrk_40-100_c20_n256`
 #' - `cbtc2`, long: `cyclic-tritanopic_wrwc_70-100_c20_n256`
+#'
 #' @references
 #' <http://peterkovesi.com/projects/colourmaps/>
 #' @source
