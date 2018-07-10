@@ -11,9 +11,9 @@ vignette: >
 ---
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
-to bring to R the color maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
-in @ARXIV:Kovesi:CETCOLORMAPS that avoid points of locally high colour contrast 
-leading to the perception of false anomalies in your data when there is none.
+to bring to _R_ the colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
+in @ARXIV:Kovesi:CETCOLORMAPS. These colour maps avoid points of locally high colour contrast 
+leading to the perception of false anomalies in your data when there are none.
 The colour maps have been designed to avoid this phenomenon by having uniform 
 perceptual contrast over their whole range.
 
@@ -21,17 +21,29 @@ This vignette attempts to summarize information presented at <http://peterkovesi
 
 ## Supported Colour Maps
 
-There are 51 supported colour maps organised according to the attributes: 
+There are 56 supported colour maps organised according to the attributes: 
 
 - Linear
 - Diverging
 - Rainbow
 - Cyclic
 - Isoluminant
+- Colourblind
 
 ## Organisation of Colour Maps
 
-Each colour map is named as follows:
+The colour maps have a short name and a long name. The shortname is meant
+to use while graphing and the long name is meant to understand how the
+color map was generated. 
+
+The shortnames are created by having at the start one or two characters to indicate whether
+the map is: linear (l), diverging (d), rainbow (r), cyclic(c), isoluminant (i) or colour blind (cb).
+From there, a number is appended to the end. For example, the linear greyscale is 'l1',
+the heat colour map is 'l3', and the blue-white-red diverging map is 'd1' and so on.
+Below, you will see each of the sections of colourmaps in a visual catalog
+with their shortnames.
+
+Each colour map is also assigned a "long" named as follows:
 
 ```
                     linear_kryw_5-100_c67_n256
@@ -56,6 +68,11 @@ as indicating whether it has been reversed by a flag.
 ```
 
 ## Colour Maps
+
+Please note, some colormaps have been "deprecated" from the initial release.
+As a result, these colormaps do _not_ have a shortname and, thus, their 
+long-name are displayed. In a future release, we will likely remove these
+color schemes.
 
 ### Linear
 
