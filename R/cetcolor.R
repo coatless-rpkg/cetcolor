@@ -33,9 +33,12 @@ search_palettes = function(name) {
 
   # Issue a message if an old palette or name is detected
   if(name %in% c(deprecated_palettes, color_old_names)) {
-    message("The color palette name `", name, "` is no longer supported.",
-            "This name will be deprecated in a future release.",
+    message(strwrap(
+      paste0("The color palette name `", name, "` is no longer supported. ",
+            "This name will be deprecated in a future release. ",
             "Please update the palette name to a shortname or use a new palette.")
+      )
+    )
 
     if(name %in% color_old_names) { return(old_to_new_names[[name]])}
     if(name %in% deprecated_palettes) { return(name) }
