@@ -31,17 +31,30 @@ color_groups = sapply(color_attribute_names, FUN = determine_group)
 # Search for proper scheme name
 search_palettes = function(name) {
 
-  # Issue a message if an old palette or name is detected
-  if(name %in% c(deprecated_palettes, color_old_names)) {
+  # Issue a warning if a deprecated palette is detected.
+  if(name %in% deprecated_palettes) {
+    warning(strwrap(
+      paste0("The color palette named `", name, "` is no longer supported. ",
+             "This palette will be deprecated in a future release. ",
+             "Please update the palette name to a new colour palette.")
+      ),
+      call. = FALSE
+    )
+    return(name)
+  }
+
+  # Inform a shortname is now available for the color palette.
+  if(name %in% color_old_names) {
+
+    new_palette_name = old_to_new_names[[name]]
+
     message(strwrap(
-      paste0("The color palette name `", name, "` is no longer supported. ",
-            "This name will be deprecated in a future release. ",
-            "Please update the palette name to a shortname or use a new palette.")
+      paste0("The color palette called `", name, "` has a new shortname of `", new_palette_name, "`. ",
+             "Please consider switching over to its shortname.")
       )
     )
 
-    if(name %in% color_old_names) { return(old_to_new_names[[name]])}
-    if(name %in% deprecated_palettes) { return(name) }
+    return(new_palette_name)
   }
 
   # Search the proper name
