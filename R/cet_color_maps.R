@@ -1,7 +1,8 @@
 #' RGB Value Map of the CET Perceptually Uniform Colour Maps
 #'
 #' A `list` of `data.frame`s that have the RGB values of the CET
-#' Perceptually Uniform Colour Maps as released in June 2016.
+#' Perceptually Uniform Colour Maps as released in May 2018 with
+#' the original maps released in June 2016.
 #'
 #' @format A `list` with each entry coded as a data frame with 256
 #'         observations and 3 variables:
