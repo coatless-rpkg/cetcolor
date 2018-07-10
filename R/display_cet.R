@@ -1,10 +1,13 @@
 # Used for n > 1
 set_display_dim = function(num) {
 
+  is_odd_num = (num %% 2 != 0)
+
+  # Count number of rows vs. columns
   if(num < 10) {
-    c(num %/% 2 + (num %% 2 != 0), 2)
+    c(num %/% 2 + is_odd_num, 2)
   } else {
-    c(num %/% 3 + (num %% 2 != 0), 3)
+    c(num %/% 4 + is_odd_num, 4)
   }
 }
 
