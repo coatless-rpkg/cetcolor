@@ -43,8 +43,8 @@ display_cet_pal = function(n = 256, name = "rainbow", alpha = 1) {
 
 #' @param attribute A `character` string indicating the attribute.
 #'                  Accepted values are: `"rainbow"` (Default),
-#'                  `"linear"`, `"diverging"`, `"cyclic"`, and
-#'                  `"isoluminant"`.
+#'                  `"linear"`, `"diverging"`, `"cyclic"`
+#'                  `"isoluminant"`, and `"colorblind"`.
 #' @rdname display_cet
 #' @export
 display_cet_attribute = function(n = 256, attribute = "rainbow", alpha = 1) {

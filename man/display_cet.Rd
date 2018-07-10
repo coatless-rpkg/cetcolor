@@ -26,8 +26,8 @@ of transparency.}
 
 \item{attribute}{A \code{character} string indicating the attribute.
 Accepted values are: \code{"rainbow"} (Default),
-\code{"linear"}, \code{"diverging"}, \code{"cyclic"}, and
-\code{"isoluminant"}.}
+\code{"linear"}, \code{"diverging"}, \code{"cyclic"}
+\code{"isoluminant"}, and \code{"colorblind"}.}
 }
 \description{
 Offers a variety of ways to preview CET Color Maps.
