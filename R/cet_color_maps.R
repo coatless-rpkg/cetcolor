@@ -23,6 +23,7 @@
 #' - `c5`, formerly: `cyclic_grey_15-85_c0_n256`
 #' - `c5s`, formerly: `cyclic_grey_15-85_c0_n256_s25`
 #' - `d1`, `coolwarm`, formerly: `diverging_bwr_40-95_c42_n256`
+#' - `d1a`, long: `diverging_bwr_20-95_c54_n256`
 #' - `d2`, `gwv`, formerly: `diverging_gwv_55-95_c39_n256`
 #' - `d3`, formerly: `diverging_gwr_55-95_c38_n256`
 #' - `d4`, `bkr`, formerly: `diverging_bkr_55-10_c35_n256`
@@ -33,6 +34,7 @@
 #' - `d10`, formerly: `diverging_cwm_80-100_c22_n256`
 #' - `d11`, formerly: `diverging-isoluminant_cjo_70_c25_n256`
 #' - `d12`, formerly: `diverging-isoluminant_cjm_75_c23_n256`
+#' - `d13`, long: `diverging_bwg_20-95_c41_n256`
 #' - `diverging-isoluminant_cjm_75_c24_n256`
 #' - `diverging_gkr_60-10_c40_n256`
 #' - `i1`, formerly: `isoluminant_cm_70_c39_n256`
