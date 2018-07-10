@@ -11,7 +11,7 @@ Status](https://travis-ci.org/coatless/cetcolor.svg?branch=master)](https://trav
 downloads](http://cranlogs.r-pkg.org/badges/cetcolor)](http://www.r-pkg.org/pkg/cetcolor)
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is
-designed to bring to R the colour maps created by [Peter
+designed to bring to *R* the 56 colour maps created by [Peter
 Kovesi](http://peterkovesi.com/projects/colourmaps/) that avoid points
 of locally high colour contrast leading to the perception of false
 anomalies in your data when there is none. The colour maps have been
@@ -66,14 +66,14 @@ grid.arrange(
 )
 ```
 
-![](README-ggplot_example-1.png)<!-- -->
+![](tools/ggplot_example-1.png)<!-- -->
 
 ``` r
 # Show a panel of possible values (without nicknames)
 display_cet_all()
 ```
 
-![](README-colordemo-1.png)<!-- -->
+![](tools/colordemo-1.png)<!-- -->
 
 ## References
 

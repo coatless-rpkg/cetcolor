@@ -6,7 +6,7 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "README-"
+  fig.path = "tools/"
 )
 ```
 
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/cetcolor)](http://www.r-pkg.org/pkg/cetcolor) 
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
-to bring to R the colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
+to bring to _R_ the 56 colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
 that avoid points of locally high colour contrast leading to the perception of 
 false anomalies in your data when there is none. The colour maps have been
 designed to avoid this phenomenon by having uniform perceptual contrast over
@@ -72,7 +72,7 @@ grid.arrange(
 )
 ```
 
-```{r colordemo, fig.width = 8, fig.height = 10}
+```{r colordemo, fig.width = 8, fig.height = 15}
 # Show a panel of possible values (without nicknames)
 display_cet_all()
 ```
