@@ -1,9 +1,12 @@
 Package: cetcolor
 Title: CET Perceptually Uniform Colour Maps
 Version: 0.2.0
-Authors@R: c(person("James", "Balamuta", email = "balamut2@illinois.edu", role = c("aut", "cre","cph")),
-             person("Peter", "Kovesi", email = "peter.kovesi@uwa.edu.au", role = c("cph"), comment="Creator of CET Color Maps"))
-Description: Collection of perceptually uniform colour maps made by Peter Kovesi (2015) "Good Colour Maps: How to Design Them" <arXiv:1509.03700> 
+Authors@R: c(person("James", "Balamuta", email = "balamut2@illinois.edu", role = c("aut", "cre","cph"),
+                    comment = c(ORCID = "0000-0003-2826-8458")),
+             person("Peter", "Kovesi", email = "peter.kovesi@uwa.edu.au", role = c("cph"),
+                    comment = "Creator of CET Color Maps"))
+Description: Collection of perceptually uniform colour maps made by Peter Kovesi
+    (2015) "Good Colour Maps: How to Design Them" <arXiv:1509.03700> 
     at the Centre for Exploration Targeting (CET).
 Depends:
     R (>= 3.3.0)
