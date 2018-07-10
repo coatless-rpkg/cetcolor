@@ -7,7 +7,7 @@ data(cet_color_maps, package = "cetcolor", envir = parent.env(environment()))
 determine_group = function(name) {
 
   if(name != "colorblind") {
-    search_pattern = paste0("^[", substr(name, 1, 1), "][[:digit:]]+$")
+    search_pattern = paste0("^[", substr(name, 1, 1), "][[:digit:]]+[[:alpha:]]?$")
   } else {
     search_pattern = paste0("cb..[[:digit:]]+$")
   }
