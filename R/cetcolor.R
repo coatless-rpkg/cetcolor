@@ -20,12 +20,26 @@ color_nicknames = names(alt_color_pairs)
 
 color_formal_names = names(cet_color_maps)
 
+color_old_names = names(old_to_new_names)
+
+color_deprecated_names = deprecated_palettes
+
 color_attribute_names = c("rainbow", "linear", "isoluminant", "diverging", "cyclic", "colorblind")
 
 color_groups = sapply(color_attribute_names, FUN = determine_group)
 
 # Search for proper scheme name
 search_palettes = function(name) {
+
+  # Issue a message if an old palette or name is detected
+  if(name %in% c(deprecated_palettes, color_old_names)) {
+    message("The color palette name `", name, "` is no longer supported.",
+            "This name will be deprecated in a future release.",
+            "Please update the palette name to a shortname or use a new palette.")
+
+    if(name %in% color_old_names) { return(old_to_new_names[[name]])}
+    if(name %in% deprecated_palettes) { return(name) }
+  }
 
   # Search the proper name
   if(name %in% color_formal_names){ return(name) }
