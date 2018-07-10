@@ -59,5 +59,5 @@ display_cet_attribute = function(n = 256, attribute = "rainbow", alpha = 1) {
 #' @rdname display_cet
 #' @export
 display_cet_all = function(n = 256, alpha = 1) {
-  make_gradient_grid(n, color_formal_names, alpha)
+  make_gradient_grid(n, color_formal_names[! color_formal_names %in% color_deprecated_names], alpha)
 }

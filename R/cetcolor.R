@@ -12,7 +12,8 @@ determine_group = function(name) {
     search_pattern = paste0("cb..[[:digit:]]+$")
   }
 
-  color_formal_names[grepl(name, color_formal_names) | grepl(search_pattern, color_formal_names)]
+  color_formal_names[grepl(paste0("^.*", name,"[^_]*$"), color_formal_names) |
+                     grepl(search_pattern, color_formal_names)]
 }
 
 # For the nickname search see the cet_color_maps file for the mapping
