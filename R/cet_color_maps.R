@@ -11,12 +11,7 @@
 #' - `G`: Green value
 #' - `B`: Blue value
 #'
-#'
 #' The following color maps have been included:
-#'
-#' **Miscellaneous**
-#'
-#' - `_bgyr_35-85_c73_n256`
 #'
 #' **Cyclic Colour Maps**
 #'

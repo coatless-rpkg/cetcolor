@@ -14,11 +14,6 @@ observations and 3 variables:
 
 The following color maps have been included:
 
-\strong{Miscellaneous}
-\itemize{
-\item \code{_bgyr_35-85_c73_n256}
-}
-
 \strong{Cyclic Colour Maps}
 \itemize{
 \item \code{c1}, formerly: \code{cyclic_mrybm_35-75_c68_n256}
