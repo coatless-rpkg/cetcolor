@@ -13,8 +13,14 @@ observations and 3 variables:
 }
 
 The following color maps have been included:
+
+\strong{Miscellaneous}
 \itemize{
 \item \code{_bgyr_35-85_c73_n256}
+}
+
+\strong{Cyclic Colour Maps}
+\itemize{
 \item \code{c1}, formerly: \code{cyclic_mrybm_35-75_c68_n256}
 \item \code{c1s}, formerly: \code{cyclic_mrybm_35-75_c68_n256_s25}
 \item \code{c2}, formerly: \code{cyclic_mygbm_30-95_c78_n256}
@@ -23,7 +29,12 @@ The following color maps have been included:
 \item \code{c4s}, formerly: \code{cyclic_wrwbw_40-90_c42_n256_s25}
 \item \code{c5}, formerly: \code{cyclic_grey_15-85_c0_n256}
 \item \code{c5s}, formerly: \code{cyclic_grey_15-85_c0_n256_s25}
+}
+
+\strong{Diverging Colour Maps}
+\itemize{
 \item \code{d1}, \code{coolwarm}, formerly: \code{diverging_bwr_40-95_c42_n256}
+\item \code{d1a}, long: \code{diverging_bwr_20-95_c54_n256}
 \item \code{d2}, \code{gwv}, formerly: \code{diverging_gwv_55-95_c39_n256}
 \item \code{d3}, formerly: \code{diverging_gwr_55-95_c38_n256}
 \item \code{d4}, \code{bkr}, formerly: \code{diverging_bkr_55-10_c35_n256}
@@ -34,22 +45,39 @@ The following color maps have been included:
 \item \code{d10}, formerly: \code{diverging_cwm_80-100_c22_n256}
 \item \code{d11}, formerly: \code{diverging-isoluminant_cjo_70_c25_n256}
 \item \code{d12}, formerly: \code{diverging-isoluminant_cjm_75_c23_n256}
+\item \code{d13}, long: \code{diverging_bwg_20-95_c41_n256}
 \item \code{diverging-isoluminant_cjm_75_c24_n256}
 \item \code{diverging_gkr_60-10_c40_n256}
+}
+
+\strong{Isoluminant Colour Maps}
+\itemize{
 \item \code{i1}, formerly: \code{isoluminant_cm_70_c39_n256}
 \item \code{i2}, \code{isolum}, formerly: \code{isoluminant_cgo_80_c38_n256}
 \item \code{i3}, formerly: \code{isoluminant_cgo_70_c39_n256}
+}
+
+\strong{Linear Colour Maps}
+\itemize{
 \item \code{l1}, \code{gray}, formerly: \code{linear_grey_0-100_c0_n256}
 \item \code{l2}, \code{dimgray} formerly: \code{linear_grey_10-95_c0_n256}
+\item \code{l3}, long: \code{linear_kryw_0-100_c71_n256}
+\item \code{l4}, long: \code{linear_kry_0-97_c73_n256}
 \item \code{l5}, \code{kgy}, formerly: \code{linear_green_5-95_c69_n256}
 \item \code{l6}, formerly: \code{linear_blue_5-95_c73_n256}
 \item \code{l7}, formerly: \code{linear_bmw_5-95_c86_n256}
-\item \code{l8}, formerly: linear_bmy_10-95_c71_n256`
+\item \code{l8}, formerly: \code{linear_bmy_10-95_c71_n256}
+\item \code{l9}, long: \code{linear_bgyw_20-98_c66_n256}
 \item \code{l10}, formerly: \code{linear_gow_60-85_c27_n256}
 \item \code{l11}, formerly: \code{linear_gow_65-90_c35_n256}
 \item \code{l12}, \code{blues}, formerly: \code{linear_blue_95-50_c20_n256}
 \item \code{l13}, \code{kr}, formerly: \code{linear_ternary-red_0-50_c52_n256}
+\item \code{l14}, long: \code{linear_ternary-green_0-46_c42_n256}
 \item \code{l15}, \code{kb}, formerly: \code{linear_ternary-blue_0-44_c57_n256}
+\item \code{l16}, long: \code{linear_kbgyw_5-98_c62_n256}
+\item \code{l17}, long: \code{linear_worb_100-25_c53_n256}
+\item \code{l18}, long: \code{linear_wyor_100-45_c55_n256}
+\item \code{l19}, long: \code{linear_wcmr_100-45_c42_n256}
 \item \code{bgy}, \code{linear_bgy_10-95_c74_n256}
 \item \code{linear_bgyw_15-100_c67_n256}
 \item \code{bgyw}, \code{linear_bgyw_15-100_c68_n256}
@@ -60,11 +88,29 @@ The following color maps have been included:
 \item \code{linear_kryw_5-100_c64_n256}
 \item \code{fire}, \code{linear_kryw_5-100_c67_n256}
 \item \code{kg}, \code{linear_ternary-green_0-46_c42_n256}
+}
+
+\strong{Rainbow Colour Maps}
+\itemize{
 \item \code{r1}, formerly: \code{rainbow_bgyrm_35-85_c69_n256}
 \item \code{r2}, formerly: \code{rainbow_bgyr_35-85_c72_n256}
 \item \code{r3}, formerly: \code{diverging-rainbow_bgymr_45-85_c67_n256}
 \item \code{rainbow}, \code{rainbow_bgyr_35-85_c73_n256}
 \item \code{rainbow_bgyrm_35-85_c71_n256}
+}
+
+\strong{Colour Blind}
+\itemize{
+\item \code{cbl1},  long: \code{linear-protanopic-deuteranopic_kbjyw_5-95_c25_n256}
+\item \code{cbl2},  long: \code{linear-protanopic-deuteranopic_kbw_5-98_c40_n256}
+\item \code{cbd1},  long: \code{diverging-protanopic-deuteranopic_bwy_60-95_c32_n256}
+\item \code{cbc1},  long: \code{cyclic-protanopic-deuteranopic_bwyk_16-96_c31_n256}
+\item \code{cbc2},  long: \code{cyclic-protanopic-deuteranopic_wywb_55-96_c33_n256}
+\item \code{cbtl1}, long: \code{linear-tritanopic_krjcw_5-98_c46_n256}
+\item \code{cbtl2}, long: \code{linear-tritanopic_krjcw_5-95_c24_n256}
+\item \code{cbtd1}, long: \code{diverging-tritanopic_cwr_75-98_c20_n256}
+\item \code{cbtc1}, long: \code{cyclic-tritanopic_cwrk_40-100_c20_n256}
+\item \code{cbtc2}, long: \code{cyclic-tritanopic_wrwc_70-100_c20_n256}
 }}
 \source{
 \url{http://peterkovesi.com/projects/colourmaps/CETperceptual_csv_0_1.zip}
@@ -74,7 +120,8 @@ cet_color_maps
 }
 \description{
 A \code{list} of \code{data.frame}s that have the RGB values of the CET
-Perceptually Uniform Colour Maps as released in June 2016.
+Perceptually Uniform Colour Maps as released in May 2018 with
+the original maps released in June 2016.
 }
 \references{
 \url{http://peterkovesi.com/projects/colourmaps/}
