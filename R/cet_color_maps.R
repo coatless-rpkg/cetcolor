@@ -73,6 +73,16 @@
 #' - `rainbow`, `rainbow_bgyr_35-85_c73_n256`
 #' - `rainbow_bgyrm_35-85_c71_n256`
 #'
+#' - `cbl1`,  long: `linear-protanopic-deuteranopic_kbjyw_5-95_c25_n256`
+#' - `cbl2`,  long: `linear-protanopic-deuteranopic_kbw_5-98_c40_n256`
+#' - `cbd1`,  long: `diverging-protanopic-deuteranopic_bwy_60-95_c32_n256`
+#' - `cbc1`,  long: `cyclic-protanopic-deuteranopic_bwyk_16-96_c31_n256`
+#' - `cbc2`,  long: `cyclic-protanopic-deuteranopic_wywb_55-96_c33_n256`
+#' - `cbtl1`, long: `linear-tritanopic_krjcw_5-98_c46_n256`
+#' - `cbtl2`, long: `linear-tritanopic_krjcw_5-95_c24_n256`
+#' - `cbtd1`, long: `diverging-tritanopic_cwr_75-98_c20_n256`
+#' - `cbtc1`, long: `cyclic-tritanopic_cwrk_40-100_c20_n256`
+#' - `cbtc2`, long: `cyclic-tritanopic_wrwc_70-100_c20_n256`
 #' @references
 #' <http://peterkovesi.com/projects/colourmaps/>
 #' @source
