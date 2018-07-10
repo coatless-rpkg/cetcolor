@@ -2,34 +2,49 @@
 output: github_document
 ---
 
-[![Travis-CI Build Status](https://travis-ci.org/coatless/cetcolor.svg?branch=master)](https://travis-ci.org/coatless/cetcolor)[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/cetcolor)](http://www.r-pkg.org/pkg/cetcolor) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/cetcolor)](https://cran.r-project.org/package=cetcolor)
-
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "README-"
+  fig.path = "tools/"
 )
 ```
 
 
-# CET Perceptually Uniform Colour Maps (`cetcolor`)
+## CET Perceptually Uniform Colour Maps (`cetcolor`)
+
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Travis-CI Build Status](https://travis-ci.org/coatless/cetcolor.svg?branch=master)](https://travis-ci.org/coatless/cetcolor)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/cetcolor)](https://cran.r-project.org/package=cetcolor)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/cetcolor)](http://www.r-pkg.org/pkg/cetcolor) 
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
-to bring to R the colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
+to bring to _R_ the 56 colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
 that avoid points of locally high colour contrast leading to the perception of 
 false anomalies in your data when there is none. The colour maps have been
 designed to avoid this phenomenon by having uniform perceptual contrast over
 their whole range.
 
-## Sample
+### Installation
 
-```{r installpkg, eval = FALSE}
-# install.packages("devtools")
+The `cetcolor` package is available on both CRAN and GitHub. The CRAN
+version is considered stable while the GitHub version is in a state of
+development and may break. 
 
-# Install the package
+You can install the stable version of the `cetcolor` package with:
+
+```r
+install.packages("cetcolor")
+```
+
+For the development version, you can opt for:
+
+```r
+install.packages("devtools")
 devtools::install_github("coatless/cetcolor")
 ```
+
+### Sample Usage
 
 ```{r ggplot_example}
 # Load the Library
@@ -57,14 +72,14 @@ grid.arrange(
 )
 ```
 
-```{r colordemo, fig.width = 8, fig.height = 10}
+```{r colordemo, fig.width = 8, fig.height = 15}
 # Show a panel of possible values (without nicknames)
 display_cet_all()
 ```
 
-# References
+## References
 
-## CET 
+### CET 
 
 - [CET Perceptually Uniform Colour Maps: Download Page](http://peterkovesi.com/projects/colourmaps/)
     - Location of CSV data, references, and data.
@@ -74,7 +89,7 @@ display_cet_all()
     - Referenced documentation and possible reimplementation of generation 
       functions to avoid using CSV data.
 
-## R Colour Palettes
+### R Colour Palettes
 
 - [`viridis`](https://cran.r-project.org/package=viridis) ([Source](https://github.com/sjmgarnier/viridis))
     - Provides MATLAB perceptually uniform colour maps in a manner that is similar to this package.
@@ -84,8 +99,12 @@ display_cet_all()
     - Proper ways to interface colour palettes with `ggplot2` as shown for `RColorBrewer`.
 
 
-# Future
+## Future
 
 - Allow for n > 256.
 - Provide hooks for ggplot2 gradient and discrete scales
 - Port over the Peter's generation code from Julia / MATLAB to R.
+
+## License
+
+CC BY-SA 4.0
