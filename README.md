@@ -1,14 +1,14 @@
 
-## CET Perceptually Uniform Colour Maps (`cetcolor`)
+## cetcolor
 
-[![Project Status: Active - The project has reached a stable, usable
-state and is being actively
-developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-[![Travis-CI Build
-Status](https://travis-ci.org/coatless/cetcolor.svg?branch=master)](https://travis-ci.org/coatless/cetcolor)
+<!-- badges: start -->
+
+[![R build
+status](https://github.com/coatless/cetcolor/workflows/R-CMD-check/badge.svg)](https://github.com/coatless/cetcolor/actions)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/cetcolor)](https://cran.r-project.org/package=cetcolor)
 [![CRAN RStudio mirror
 downloads](http://cranlogs.r-pkg.org/badges/cetcolor)](http://www.r-pkg.org/pkg/cetcolor)
+<!-- badges: end -->
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is
 designed to bring to *R* the 56 colour maps created by [Peter
@@ -97,9 +97,8 @@ display_cet_all()
         that is similar to this package.
   - [`RColorBrewer`](https://cran.r-project.org/package=RColorBrewer)
     ([Source](RColorBrewer))
-      - Function interface naming, e.g. `cet_pal(n, name)`, and colour
-        map
-    displays.
+      - Function interface naming, e.g. `cet_pal(n, name)`, and colour
+        map displays.
   - [`scales`](https://github.com/hadley/scales/blob/646b6a433e6f7106bed4173569898fac409d22b5/R/pal-brewer.r)
     and
     [`ggplot2`](https://github.com/tidyverse/ggplot2/blob/f6f9f9de41c48382c70cbccc253db198e3cdc128/R/scale-brewer.r)
@@ -111,6 +110,10 @@ display_cet_all()
   - Allow for n \> 256.
   - Provide hooks for ggplot2 gradient and discrete scales
   - Port over the Peter’s generation code from Julia / MATLAB to R.
+
+## Authors
+
+James Balamuta and Peter Kovesi
 
 ## License
 
