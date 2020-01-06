@@ -7,8 +7,8 @@
 \title{cetcolor: CET Perceptually Uniform Colour Maps}
 \description{
 Collection of perceptually uniform colour maps made by Peter Kovesi
-(2015) "Good Colour Maps: How to Design Them" <arXiv:1509.03700>
-at the Centre for Exploration Targeting (CET).
+    (2015) "Good Colour Maps: How to Design Them" <arXiv:1509.03700> 
+    at the Centre for Exploration Targeting (CET).
 }
 \details{
 56 Colour maps are available as of May 2018
@@ -24,7 +24,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu} (0000-0003-2826-8458) [copyright holder]
+\strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu} (\href{https://orcid.org/0000-0003-2826-8458}{ORCID}) [copyright holder]
 
 Other contributors:
 \itemize{
@@ -32,3 +32,4 @@ Other contributors:
 }
 
 }
+\keyword{internal}
