@@ -11,12 +11,13 @@ knitr::opts_chunk$set(
 ```
 
 
-## CET Perceptually Uniform Colour Maps (`cetcolor`)
+## cetcolor
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-[![Travis-CI Build Status](https://travis-ci.org/coatless/cetcolor.svg?branch=master)](https://travis-ci.org/coatless/cetcolor)
+<!-- badges: start -->
+[![R build status](https://github.com/coatless/cetcolor/workflows/R-CMD-check/badge.svg)](https://github.com/coatless/cetcolor/actions)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/cetcolor)](https://cran.r-project.org/package=cetcolor)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/cetcolor)](http://www.r-pkg.org/pkg/cetcolor) 
+<!-- badges: end -->
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
 to bring to _R_ the 56 colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
@@ -104,6 +105,10 @@ display_cet_all()
 - Allow for n > 256.
 - Provide hooks for ggplot2 gradient and discrete scales
 - Port over the Peter's generation code from Julia / MATLAB to R.
+
+## Authors
+
+James Balamuta and Peter Kovesi
 
 ## License
 
