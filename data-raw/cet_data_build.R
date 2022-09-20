@@ -1,5 +1,5 @@
 # Download data
-download.file("http://peterkovesi.com/projects/colourmaps/CETperceptual_csv_0_1.zip",
+download.file("https://colorcet.com/download/CETperceptual_csv_0_1.zip",
               "data-raw/CETperceptual_csv_0_1.zip")
 
 # Unzip it
@@ -34,4 +34,5 @@ for(i in seq_along(color_files)){
 }
 
 # Release finish data build to data/
-devtools::use_data(cet_color_maps, overwrite = TRUE)
+usethis::use_data(cet_color_maps, overwrite = TRUE)
+
