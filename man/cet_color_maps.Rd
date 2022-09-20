@@ -4,7 +4,8 @@
 \name{cet_color_maps}
 \alias{cet_color_maps}
 \title{RGB Value Map of the CET Perceptually Uniform Colour Maps}
-\format{A \code{list} with each entry coded as a data frame with 256
+\format{
+A \code{list} with each entry coded as a data frame with 256
 observations and 3 variables:
 \itemize{
 \item \code{R}: Red value
@@ -106,7 +107,8 @@ The following color maps have been included:
 \item \code{cbtd1}, long: \verb{diverging-tritanopic_cwr_75-98_c20_n256}
 \item \code{cbtc1}, long: \verb{cyclic-tritanopic_cwrk_40-100_c20_n256}
 \item \code{cbtc2}, long: \verb{cyclic-tritanopic_wrwc_70-100_c20_n256}
-}}
+}
+}
 \source{
 \url{http://peterkovesi.com/projects/colourmaps/CETperceptual_csv_0_1.zip}
 }

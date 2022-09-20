@@ -6,9 +6,7 @@
 \alias{cetcolor-package}
 \title{cetcolor: CET Perceptually Uniform Colour Maps}
 \description{
-Collection of perceptually uniform colour maps made by Peter Kovesi
-    (2015) "Good Colour Maps: How to Design Them" <arXiv:1509.03700> 
-    at the Centre for Exploration Targeting (CET).
+Collection of perceptually uniform colour maps made by Peter Kovesi (2015) "Good Colour Maps: How to Design Them" \href{https://arxiv.org/abs/1509.03700}{arXiv:1509.03700} at the Centre for Exploration Targeting (CET).
 }
 \details{
 56 Colour maps are available as of May 2018
