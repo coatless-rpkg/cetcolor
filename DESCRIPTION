@@ -1,6 +1,6 @@
 Package: cetcolor
 Title: CET Perceptually Uniform Colour Maps
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("James", "Balamuta", 
            email = "balamut2@illinois.edu", 
@@ -17,13 +17,13 @@ Description: Collection of perceptually uniform colour maps made by Peter Kovesi
 Depends:
     R (>= 3.3.0)
 License: CC BY-SA 4.0
-URL: https://github.com/coatless/cetcolor, http://thecoatlessprofessor.com/projects/cetcolor/, http://peterkovesi.com/projects/colourmaps/
-BugReports: https://github.com/coatless/cetcolor/issues
+URL: https://github.com/coatless-rpkg/cetcolor, https://r-pkg.thecoatlessprofessor.com/cetcolor/, http://peterkovesi.com/projects/colourmaps/
+BugReports: https://github.com/coatless-rpkg/cetcolor/issues
 Encoding: UTF-8
 LazyData: true
 Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)

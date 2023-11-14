@@ -14,10 +14,10 @@ Collection of perceptually uniform colour maps made by Peter Kovesi (2015) "Good
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/coatless/cetcolor}
-  \item \url{http://thecoatlessprofessor.com/projects/cetcolor/}
+  \item \url{https://github.com/coatless-rpkg/cetcolor}
+  \item \url{https://r-pkg.thecoatlessprofessor.com/cetcolor/}
   \item \url{http://peterkovesi.com/projects/colourmaps/}
-  \item Report bugs at \url{https://github.com/coatless/cetcolor/issues}
+  \item Report bugs at \url{https://github.com/coatless-rpkg/cetcolor/issues}
 }
 
 }
