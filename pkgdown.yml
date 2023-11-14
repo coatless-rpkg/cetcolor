@@ -3,7 +3,7 @@ pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   cet_color_schemes: cet_color_schemes.html
-last_built: 2023-11-14T07:45Z
+last_built: 2023-11-14T08:20Z
 urls:
   reference: https://r-pkg.thecoatlessprofessor.com/cetcolor/reference
   article: https://r-pkg.thecoatlessprofessor.com/cetcolor/articles
