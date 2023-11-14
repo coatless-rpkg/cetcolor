@@ -14,13 +14,13 @@ knitr::opts_chunk$set(
 ## cetcolor
 
 <!-- badges: start -->
-[![R build status](https://github.com/coatless/cetcolor/workflows/R-CMD-check/badge.svg)](https://github.com/coatless/cetcolor/actions)
+[![R-CMD-check](https://github.com/coatless-rpkg/cetcolor/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/coatless-rpkg/cetcolor/actions/workflows/R-CMD-check.yaml)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/cetcolor)](https://cran.r-project.org/package=cetcolor)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/cetcolor)](http://www.r-pkg.org/pkg/cetcolor) 
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/cetcolor)](https://www.r-pkg.org/pkg/cetcolor) 
 <!-- badges: end -->
 
 The [`cetcolor`](https://cran.r-project.org/package=cetcolor) package is designed
-to bring to _R_ the 56 colour maps created by [Peter Kovesi](http://peterkovesi.com/projects/colourmaps/) 
+to bring to _R_ the 56 colour maps created by [Peter Kovesi](https://colorcet.com/) 
 that avoid points of locally high colour contrast leading to the perception of 
 false anomalies in your data when there is none. The colour maps have been
 designed to avoid this phenomenon by having uniform perceptual contrast over
@@ -41,8 +41,8 @@ install.packages("cetcolor")
 For the development version, you can opt for:
 
 ```r
-install.packages("devtools")
-devtools::install_github("coatless/cetcolor")
+install.packages("remotes")
+remotes::install_github("coatless-rpkg/cetcolor")
 ```
 
 ### Sample Usage
@@ -82,7 +82,7 @@ display_cet_all()
 
 ### CET 
 
-- [CET Perceptually Uniform Colour Maps: Download Page](http://peterkovesi.com/projects/colourmaps/)
+- [CET Perceptually Uniform Colour Maps: Download Page](https://colorcet.com/)
     - Location of CSV data, references, and data.
 - [colorcet for Python](https://github.com/bokeh/colorcet)
     - Shorthand naming of colour schemes and presentation of palettes
