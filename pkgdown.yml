@@ -1,10 +1,9 @@
-pandoc: 2.19.2
-pkgdown: 2.0.7
+pandoc: 3.8.3
+pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   cet_color_schemes: cet_color_schemes.html
-last_built: 2023-11-14T08:20Z
+last_built: 2026-10-26T18:55Z
 urls:
   reference: https://r-pkg.thecoatlessprofessor.com/cetcolor/reference
   article: https://r-pkg.thecoatlessprofessor.com/cetcolor/articles
-
